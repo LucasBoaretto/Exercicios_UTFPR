@@ -1,0 +1,1 @@
+Ha um numero primo cujo valor e 13  17

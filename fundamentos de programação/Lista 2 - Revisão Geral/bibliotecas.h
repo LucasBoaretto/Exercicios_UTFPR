@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+#include <stdlib.h>
+#include <time.h>
+#include <math.h>
+#include "vetores.h"
+#include "string.h"
+#include "matrizes.h"
