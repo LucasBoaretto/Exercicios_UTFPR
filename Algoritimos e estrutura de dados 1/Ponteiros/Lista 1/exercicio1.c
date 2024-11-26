@@ -26,3 +26,40 @@ A=4 B=3
 A=7 B=5
 A=10 B=0
 A=100 B=-10*/
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+void troca(int *A, int *B);
+
+int main()
+{
+
+    int A, B;
+
+    int loop;
+    scanf("%d", &loop);
+
+    do
+    {
+        scanf("%d", &A);
+        scanf("%d", &B);
+
+        if (A < B)
+        {
+            troca(&A, &B);
+        }
+        printf("\nA=%d  B=%d", A, B);
+        loop--;
+    } while (loop != 0);
+
+    return 0;
+}
+void troca(int *A, int *B)
+{
+    int aux = *A;
+    *A = *B;
+    *B = aux;
+}
