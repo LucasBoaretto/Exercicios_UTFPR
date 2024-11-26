@@ -21,30 +21,30 @@ typedef struct
 
 } Carro;
 
-void inicializar(Carro carros[]);
-void imprimirCarros(Carro carros[], int max);
-float precoMedio(Carro carros[], int max);
-void imprimirModelosPorFabricante(Carro carros[], int max, const char *fabricante);
+void inicializar(Carro carros[5]);
+void imprimirCarros(Carro carros[5]);
+float precoMedio(Carro carros[5]);
+void imprimirModelosPorFabricante(Carro carros[5], char fabricante[15]);
 
 int main()
 {
-    Carro concencionaria[5];
-    inicializar(concencionaria);
+    Carro concessionaria[5];
+    inicializar(concessionaria);
 
-    imprimirCarros(concencionaria, 5);
+    imprimirCarros(concessionaria);
 
-    float valorMedio = precoMedio(concencionaria, 5);
+    float valorMedio = precoMedio(concessionaria);
     printf("\nO preco medio dos carros eh de: R$%.2f", valorMedio);
 
     char fabricante[15];
     printf("\nDigite o nome do fabricante para listar os modelos: ");
     scanf("%s", fabricante);
-    imprimirModelosPorFabricante(concencionaria, 5, fabricante);
+    imprimirModelosPorFabricante(concessionaria, fabricante);
 
     return 0;
 }
 
-void inicializar(Carro carros[])
+void inicializar(Carro carros[5])
 {
     strcpy(carros[0].modelo, "Civic type R");
     strcpy(carros[0].fabricante, "Honda");
@@ -87,10 +87,9 @@ void inicializar(Carro carros[])
     carros[4].preco = 8000;
 }
 
-void imprimirCarros(Carro carros[], int max)
+void imprimirCarros(Carro carros[5])
 {
-
-    for (int i = 0; i < max; i++)
+    for (int i = 0; i < 5; i++)
     {
         printf("\nCarro %d\n", i + 1);
         printf("Modelo: %s\n", carros[i].modelo);
@@ -103,22 +102,21 @@ void imprimirCarros(Carro carros[], int max)
     }
 }
 
-float precoMedio(Carro carros[], int max)
+float precoMedio(Carro carros[5])
 {
     float soma = 0;
-    for (int i = 0; i < max; i++)
+    for (int i = 0; i < 5; i++)
     {
         soma += carros[i].preco;
     }
-
-    return soma / max;
+    return soma / 5;
 }
 
-void imprimirModelosPorFabricante(Carro carros[], int max, const char *fabricante)
+void imprimirModelosPorFabricante(Carro carros[5], char fabricante[15])
 {
     printf("\nModelos do fabricante %s:\n", fabricante);
     int encontrado = 0;
-    for (int i = 0; i < max; i++)
+    for (int i = 0; i < 5; i++)
     {
         if (strcmp(carros[i].fabricante, fabricante) == 0)
         {

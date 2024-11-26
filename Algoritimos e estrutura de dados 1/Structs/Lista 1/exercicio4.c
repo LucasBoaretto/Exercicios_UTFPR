@@ -110,5 +110,5 @@ void imprimirResultados(NComplexo soma, NComplexo subtracao, NComplexo multiplic
     printf("\nA subtracao dos dois numeros eh: %.f + %.fi", subtracao.real, subtracao.img);
     printf("\nA multiplicacao dos dois numeros eh: %.f + %.fi", multiplicacao.real, multiplicacao.img);
     printf("\nO conjulgado de um dos numeros imaginarios eh: %.f + %.fi", conjulgado.real, conjulgado.img);
-    printf("\nA divisao dos dos dois numeros eh: %.2f + %.2fi", divisao.real, divisao.img);
+    printf("\nA divisao dos dois numeros eh: %.2f + %.2fi", divisao.real, divisao.img);
 }
