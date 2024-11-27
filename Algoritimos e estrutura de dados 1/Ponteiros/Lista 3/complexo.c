@@ -45,3 +45,48 @@ Sample Output 1
 
 3.0-4.0i
 5.0*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+typedef struct
+{
+    float real, img, mod;
+} Complexo; // o enunciado do exercicio está errado, foi trocado com de outro exercicio;
+
+void atualizar_complexo(Complexo *c, float real, float img);
+void imprimirComplexo(Complexo *c);
+
+int main()
+{
+    float real, img;
+    scanf("%f %f", &real, &img);
+
+    Complexo c;
+    atualizar_complexo(&c, real, img);
+
+    imprimirComplexo(&c);
+
+    return 0;
+}
+
+void atualizar_complexo(Complexo *c, float real, float img)
+{
+    c->img = img;
+    c->real = real;
+    c->mod = sqrt(real * real + img * img);
+}
+
+void imprimirComplexo(Complexo *c)
+{
+    if (c->img < 0)
+    {
+        printf("%.1f%.1fi", c->real, c->img);
+    }
+    else
+    {
+        printf("%.1f+%.1fi", c->real, c->img);
+    }
+    printf("\n%.1f\n", c->mod);
+}
