@@ -28,11 +28,43 @@ Sample Output 0
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include <math.h>
 
 int *prog_arit(int n, int r);
 
 int main()
 {
+    int n, r;
+
+    printf("Digite o tamanho do vetor e a razão da progressão: ");
+    scanf("%d %d", &n, &r);
+
+    int *vetor = prog_arit(n, r);
+
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", vetor[i]);
+    }
+    printf("\n");
+
+    free(vetor);
+
+    return 0;
+}
+
+int *prog_arit(int n, int r)
+{
+    int *vetor = (int *)malloc(n * sizeof(int));
+
+    if (vetor == NULL)
+    {
+        printf("Erro: Não foi possível alocar memória.\n");
+        exit(1);
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        vetor[i] = i * r;
+    }
+
+    return vetor;
 }
