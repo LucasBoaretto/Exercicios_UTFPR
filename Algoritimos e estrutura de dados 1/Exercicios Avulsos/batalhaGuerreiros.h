@@ -48,7 +48,7 @@ int bonusCarisma(int carisma)
     {
         return -2;
     }
-    else if (carisma == 3)
+    else if (carisma <= 3)
     {
         return -3;
     }
