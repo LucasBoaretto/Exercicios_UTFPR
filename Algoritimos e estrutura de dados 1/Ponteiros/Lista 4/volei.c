@@ -83,12 +83,48 @@ typedef struct
     int ataquesSucesso;
 } Jogador;
 
-void inicializar(int n);
+void calculaEstatisticas(Jogador *jogadores, int n);
 
 int main()
 {
     int n;
     scanf("%d", &n);
 
+    Jogador jogadores[100];
+
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%s", jogadores[i].nome);
+        scanf("%d %d %d", &jogadores[i].saquesTotal, &jogadores[i].bloqueiosTotal, &jogadores[i].ataquesTotal);
+        scanf("%d %d %d", &jogadores[i].saquesSucesso, &jogadores[i].bloqueiosSucesso, &jogadores[i].ataquesSucesso);
+    }
+
+    calculaEstatisticas(jogadores, n);
+
     return 0;
+}
+
+void calculaEstatisticas(Jogador *jogadores, int n)
+{
+    int totalSaques = 0, totalBloqueios = 0, totalAtaques = 0;
+    int sucessoSaques = 0, sucessoBloqueios = 0, sucessoAtaques = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+        totalSaques += jogadores[i].saquesTotal;
+        totalBloqueios += jogadores[i].bloqueiosTotal;
+        totalAtaques += jogadores[i].ataquesTotal;
+
+        sucessoAtaques += jogadores[i].ataquesSucesso;
+        sucessoSaques += jogadores[i].saquesSucesso;
+        sucessoBloqueios += jogadores[i].bloqueiosSucesso;
+    }
+
+    double porcentagemSaques = (sucessoSaques * 100) / (float)totalSaques;
+    double porcentagemBloqueios = (sucessoBloqueios * 100) / (float)totalBloqueios;
+    double porcentagemAtaques = (sucessoAtaques * 100) / (float)totalAtaques;
+
+    printf("Pontos de Saque: %.2f%%\n", porcentagemSaques);
+    printf("Pontos de Bloqueio: %.2f%%\n", porcentagemBloqueios);
+    printf("Pontos de Ataque: %.2f%%\n", porcentagemAtaques);
 }
