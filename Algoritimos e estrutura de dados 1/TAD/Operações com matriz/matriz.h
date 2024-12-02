@@ -1,31 +1,29 @@
-/* Matriz.h */
-/**
- * A diretiva de compilação abaixo inclui apenas uma vez o arquivo
- * de cabeçalho. Ou seja, o código entre as duas diretivas
- * '#ifndef ...  #endif' só será compilado se o símbolo 'MATRIZ_H'
- * não tiver sido definido.
- */
-#ifndef MATRIZ_H /*inicio da estrutura condicional*/
-#define MATRIZ_H /*define o nome_do_simbolo */
-#include <stdlib.h>
-#include <math.h>
-#include <stdio.h>
-#include <math.h>
+#ifndef MATRIZ_H
+#define MATRIZ_H
 
-typedef struct matriz Matriz;
+typedef struct
+{
+    int **arr; // Matriz l x c
+    int l;     // Quantidade de linhas
+    int c;     // Quantidade de colunas
+} Matriz;
 
+// Inicializa uma matriz com as dimensões especificadas
 Matriz *iniciar(int l, int c);
 
-// A matriz recebe x na posição [i][j]
+// Altera o valor na posição [i][j] da matriz
 void alterar(Matriz *m, int x, int i, int j);
 
-// Retorna a linha da matriz na posição i
+// Obtém a linha na posição i
 int *obter_linha(Matriz *m, int i);
 
-// Retorna a coluna da matriz na posição i
-int *obter_coluna(Matriz *m, int i);
+// Obtém a coluna na posição j
+int *obter_coluna(Matriz *m, int j);
 
-// obter sub-matriz
+// Obtém uma submatriz de [li][ci] a [lf][cf]
 Matriz *obter_submat(Matriz *m, int li, int ci, int lf, int cf);
 
-#endif /*fim da estrutura condicional*/
+// Libera a memória da matriz
+void liberar_matriz(Matriz *m);
+
+#endif
