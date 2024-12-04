@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "fila.h"
 
-void gerenciar_transito(Fila *E1, Fila *E2, Fila *E3, Fila *R);
-
 int main()
 {
 
@@ -38,25 +36,4 @@ int main()
     liberar_fila(R);
 
     return 0;
-}
-
-void gerenciar_transito(Fila *E1, Fila *E2, Fila *E3, Fila *R)
-{
-    Fila *estradas[3] = {E1, E2, E3};
-    int i = 0;
-
-    while (!fila_vazia(E1) || !fila_vazia(E2) || !fila_vazia(E3))
-    {
-        Fila *atual = estradas[i];
-        int transferidos = 0;
-
-        while (!fila_vazia(atual) && transferidos < 3)
-        {
-            enfileirar(R, desenfileirar(atual));
-            transferidos++;
-        }
-
-        // Passa para a próxima estrada
-        i = (i + 1) % 3;
-    }
 }

@@ -143,23 +143,48 @@ int verificar_fim(Fila *f)
         return INT_MIN;
 }
 
-void gerenciar_transito(Fila *E1, Fila *E2, Fila *E3, Fila *R)
+int gerenciar_estacionamento(Fila *f, int ticket)
 {
-    Fila *estradas[3] = {E1, E2, E3};
-    int i = 0;
+    int movimentos = 0;
+    int carro_encontrado = 0;
 
-    while (!fila_vazia(E1) || !fila_vazia(E2) || !fila_vazia(E3))
+    Fila *temp_fila = criar_fila();
+
+    while (!fila_vazia(f))
     {
-        Fila *atual = estradas[i];
-        int transferidos = 0;
-
-        while (!fila_vazia(atual) && transferidos < 3)
+        int carro = desenfileirar(f);
+        if (carro == ticket)
         {
-            enfileirar(R, desenfileirar(atual));
-            transferidos++;
+            carro_encontrado = 1;
+            break;
         }
-
-        // Passa para a próxima estrada
-        i = (i + 1) % 3;
+        enfileirar(temp_fila, carro);
+        movimentos++;
     }
+
+    // Restaurando os carros na fila
+    while (!fila_vazia(temp_fila))
+    {
+        enfileirar(f, desenfileirar(temp_fila));
+    }
+
+    liberar_fila(temp_fila);
+
+    // Imprimir a fila
+    imprimir_fila(f);
+
+    // Imprimir o número de movimentos
+    printf("%d\n", movimentos);
+
+    // Retornar o resultado
+    if (carro_encontrado)
+    {
+        printf("sucesso\n");
+    }
+    else
+    {
+        printf("falha\n");
+    }
+
+    return movimentos;
 }
