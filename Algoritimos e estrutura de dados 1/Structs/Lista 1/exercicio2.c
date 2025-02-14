@@ -36,7 +36,7 @@ float areaTriangulo(Triangulo t)
 {
     float area = (pow(t.aresta1, 2) * (sqrt(3))) / 4;
 
-    return area;
+    return area; 
 }
 
 Triangulo inicializar(int ar1, int ar2, int ar3)
