@@ -23,11 +23,11 @@ void quickSort(int vet[], int baixo, int alto, int m)
     if (baixo < alto)
     {
 
-        int aux = vet[alto];
+        int pivo = vet[alto];
         int i = baixo - 1;
         for (int j = baixo; j < alto; j++)
         {
-            if (vet[j] < aux)
+            if (vet[j] < pivo)
             {
                 i++;
 
@@ -41,24 +41,24 @@ void quickSort(int vet[], int baixo, int alto, int m)
         vet[i + 1] = vet[alto];
         vet[alto] = temp;
 
-        int indiceAux= i + 1;
+        int indicePivo = i + 1;
 
-        if (indiceAux - baixo + 1 > m)
+        if (indicePivo - baixo + 1 > m)
         {
-            quickSort(vet, baixo, indiceAux - 1, m);
+            quickSort(vet, baixo, indicePivo - 1, m);
         }
         else
         {
-            bubbleSort(vet + baixo, indiceAux - baixo);
+            bubbleSort(vet + baixo, indicePivo - baixo);
         }
 
-        if (alto - indiceAux > m)
+        if (alto - indicePivo > m)
         {
-            quickSort(vet, indiceAux + 1, alto, m);
+            quickSort(vet, indicePivo + 1, alto, m);
         }
         else
         {
-            bubbleSort(vet + indiceAux + 1, alto - indiceAux);
+            bubbleSort(vet + indicePivo + 1, alto - indicePivo);
         }
     }
 }
