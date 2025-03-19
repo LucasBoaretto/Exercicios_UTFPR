@@ -1,0 +1,1647 @@
+Decodificação das Mensagens CAN:
+
+ID: 0x600
+Texto ASCII:     CAN 
+16 bits Big Endian: 8224 (0x2020)
+16 bits Little Endian: 8224 (0x2020)
+32 bits Big Endian: 538976288 (0x20202020)
+32 bits Little Endian: 538976288 (0x20202020)
+------------------------
+ID: 0x605
+Texto ASCII: RPF.....
+16 bits Big Endian: 21072 (0x5250)
+16 bits Little Endian: 20562 (0x5052)
+32 bits Big Endian: 1380992512 (0x52504600)
+32 bits Little Endian: 4608082 (0x00465052)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..3.....
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 13056 (0x00003300)
+32 bits Little Endian: 3342336 (0x00330000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x602
+Texto ASCII: RPF.....
+16 bits Big Endian: 21072 (0x5250)
+16 bits Little Endian: 20562 (0x5052)
+32 bits Big Endian: 1380992512 (0x52504600)
+32 bits Little Endian: 4608082 (0x00465052)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x7FB
+Texto ASCII: .V......
+16 bits Big Endian: 65366 (0xFF56)
+16 bits Little Endian: 22271 (0x56FF)
+32 bits Big Endian: 4283826176 (0xFF560000)
+32 bits Little Endian: 22271 (0x000056FF)
+------------------------
+ID: 0x650
+Texto ASCII: .0.f....
+16 bits Big Endian: 43568 (0xAA30)
+16 bits Little Endian: 12458 (0x30AA)
+32 bits Big Endian: 2855272550 (0xAA300066)
+32 bits Little Endian: 1711288490 (0x660030AA)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450248 (0x52574208)
+32 bits Little Endian: 138565458 (0x08425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: .V......
+16 bits Big Endian: 65366 (0xFF56)
+16 bits Little Endian: 22271 (0x56FF)
+32 bits Big Endian: 4283826176 (0xFF560000)
+32 bits Little Endian: 22271 (0x000056FF)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450241 (0x52574201)
+32 bits Little Endian: 21124946 (0x01425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII: rd      
+16 bits Big Endian: 29284 (0x7264)
+16 bits Little Endian: 25714 (0x6472)
+32 bits Big Endian: 1919164448 (0x72642020)
+32 bits Little Endian: 538993778 (0x20206472)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450243 (0x52574203)
+32 bits Little Endian: 54679378 (0x03425752)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII:       ..
+16 bits Big Endian: 8224 (0x2020)
+16 bits Little Endian: 8224 (0x2020)
+32 bits Big Endian: 538976288 (0x20202020)
+32 bits Little Endian: 538976288 (0x20202020)
+------------------------
+ID: 0x7FB
+Texto ASCII: ...   ..
+16 bits Big Endian: 64506 (0xFBFA)
+16 bits Little Endian: 64251 (0xFAFB)
+32 bits Big Endian: 4227511840 (0xFBFAB620)
+32 bits Little Endian: 548862715 (0x20B6FAFB)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450243 (0x52574203)
+32 bits Little Endian: 54679378 (0x03425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x604
+Texto ASCII: .8......
+16 bits Big Endian: 56 (0x0038)
+16 bits Little Endian: 14336 (0x3800)
+32 bits Big Endian: 3670016 (0x00380000)
+32 bits Little Endian: 14336 (0x00003800)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..3.....
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 13056 (0x00003300)
+32 bits Little Endian: 3342336 (0x00330000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ...   ..
+16 bits Big Endian: 64506 (0xFBFA)
+16 bits Little Endian: 64251 (0xFAFB)
+32 bits Big Endian: 4227511840 (0xFBFAB620)
+32 bits Little Endian: 548862715 (0x20B6FAFB)
+------------------------
+ID: 0x650
+Texto ASCII: ..3.....
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 13056 (0x00003300)
+32 bits Little Endian: 3342336 (0x00330000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII:       ..
+16 bits Big Endian: 8224 (0x2020)
+16 bits Little Endian: 8224 (0x2020)
+32 bits Big Endian: 538976288 (0x20202020)
+32 bits Little Endian: 538976288 (0x20202020)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450249 (0x52574209)
+32 bits Little Endian: 155342674 (0x09425752)
+------------------------
+ID: 0x600
+Texto ASCII: RLCD..  
+16 bits Big Endian: 21068 (0x524C)
+16 bits Little Endian: 19538 (0x4C52)
+32 bits Big Endian: 1380729668 (0x524C4344)
+32 bits Little Endian: 1145261138 (0x44434C52)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450244 (0x52574204)
+32 bits Little Endian: 71456594 (0x04425752)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x7FB
+Texto ASCII: .8......
+16 bits Big Endian: 65336 (0xFF38)
+16 bits Little Endian: 14591 (0x38FF)
+32 bits Big Endian: 4281860096 (0xFF380000)
+32 bits Little Endian: 14591 (0x000038FF)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII:  Dashboa
+16 bits Big Endian: 8260 (0x2044)
+16 bits Little Endian: 17440 (0x4420)
+32 bits Big Endian: 541352307 (0x20446173)
+32 bits Little Endian: 1935754272 (0x73614420)
+------------------------
+ID: 0x650
+Texto ASCII: ..3.....
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 13056 (0x00003300)
+32 bits Little Endian: 3342336 (0x00330000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: .8......
+16 bits Big Endian: 65336 (0xFF38)
+16 bits Little Endian: 14591 (0x38FF)
+32 bits Big Endian: 4281860096 (0xFF380000)
+32 bits Little Endian: 14591 (0x000038FF)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450247 (0x52574207)
+32 bits Little Endian: 121788242 (0x07425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII: RLCD..  
+16 bits Big Endian: 21068 (0x524C)
+16 bits Little Endian: 19538 (0x4C52)
+32 bits Big Endian: 1380729668 (0x524C4344)
+32 bits Little Endian: 1145261138 (0x44434C52)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450240 (0x52574200)
+32 bits Little Endian: 4347730 (0x00425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: .8......
+16 bits Big Endian: 65336 (0xFF38)
+16 bits Little Endian: 14591 (0x38FF)
+32 bits Big Endian: 4281860096 (0xFF380000)
+32 bits Little Endian: 14591 (0x000038FF)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450245 (0x52574205)
+32 bits Little Endian: 88233810 (0x05425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x605
+Texto ASCII: .8......
+16 bits Big Endian: 56 (0x0038)
+16 bits Little Endian: 14336 (0x3800)
+32 bits Big Endian: 3670016 (0x00380000)
+32 bits Little Endian: 14336 (0x00003800)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x604
+Texto ASCII: .8......
+16 bits Big Endian: 56 (0x0038)
+16 bits Little Endian: 14336 (0x3800)
+32 bits Big Endian: 3670016 (0x00380000)
+32 bits Little Endian: 14336 (0x00003800)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x7FB
+Texto ASCII: .8......
+16 bits Big Endian: 65336 (0xFF38)
+16 bits Little Endian: 14591 (0x38FF)
+32 bits Big Endian: 4281860096 (0xFF380000)
+32 bits Little Endian: 14591 (0x000038FF)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII: RLCD..  
+16 bits Big Endian: 21068 (0x524C)
+16 bits Little Endian: 19538 (0x4C52)
+32 bits Big Endian: 1380729668 (0x524C4344)
+32 bits Little Endian: 1145261138 (0x44434C52)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: .8......
+16 bits Big Endian: 65336 (0xFF38)
+16 bits Little Endian: 14591 (0x38FF)
+32 bits Big Endian: 4281860096 (0xFF380000)
+32 bits Little Endian: 14591 (0x000038FF)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450248 (0x52574208)
+32 bits Little Endian: 138565458 (0x08425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450246 (0x52574206)
+32 bits Little Endian: 105011026 (0x06425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450241 (0x52574201)
+32 bits Little Endian: 21124946 (0x01425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450251 (0x5257420B)
+32 bits Little Endian: 188897106 (0x0B425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ...   ..
+16 bits Big Endian: 64506 (0xFBFA)
+16 bits Little Endian: 64251 (0xFAFB)
+32 bits Big Endian: 4227511840 (0xFBFAB620)
+32 bits Little Endian: 548862715 (0x20B6FAFB)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450244 (0x52574204)
+32 bits Little Endian: 71456594 (0x04425752)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x7FB
+Texto ASCII: .V......
+16 bits Big Endian: 65366 (0xFF56)
+16 bits Little Endian: 22271 (0x56FF)
+32 bits Big Endian: 4283826176 (0xFF560000)
+32 bits Little Endian: 22271 (0x000056FF)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x7FB
+Texto ASCII: .8......
+16 bits Big Endian: 65336 (0xFF38)
+16 bits Little Endian: 14591 (0x38FF)
+32 bits Big Endian: 4281860096 (0xFF380000)
+32 bits Little Endian: 14591 (0x000038FF)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII:     CAN 
+16 bits Big Endian: 8224 (0x2020)
+16 bits Little Endian: 8224 (0x2020)
+32 bits Big Endian: 538976288 (0x20202020)
+32 bits Little Endian: 538976288 (0x20202020)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x603
+Texto ASCII: .8......
+16 bits Big Endian: 56 (0x0038)
+16 bits Little Endian: 14336 (0x3800)
+32 bits Big Endian: 3670016 (0x00380000)
+32 bits Little Endian: 14336 (0x00003800)
+------------------------
+ID: 0x650
+Texto ASCII: ..2.....
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 12800 (0x00003200)
+32 bits Little Endian: 3276800 (0x00320000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x606
+Texto ASCII: .8......
+16 bits Big Endian: 56 (0x0038)
+16 bits Little Endian: 14336 (0x3800)
+32 bits Big Endian: 3670016 (0x00380000)
+32 bits Little Endian: 14336 (0x00003800)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x603
+Texto ASCII: .8......
+16 bits Big Endian: 56 (0x0038)
+16 bits Little Endian: 14336 (0x3800)
+32 bits Big Endian: 3670016 (0x00380000)
+32 bits Little Endian: 14336 (0x00003800)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ...   ..
+16 bits Big Endian: 64506 (0xFBFA)
+16 bits Little Endian: 64251 (0xFAFB)
+32 bits Big Endian: 4227511840 (0xFBFAB620)
+32 bits Little Endian: 548862715 (0x20B6FAFB)
+------------------------
+ID: 0x606
+Texto ASCII: .8......
+16 bits Big Endian: 56 (0x0038)
+16 bits Little Endian: 14336 (0x3800)
+32 bits Big Endian: 3670016 (0x00380000)
+32 bits Little Endian: 14336 (0x00003800)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x605
+Texto ASCII: .8......
+16 bits Big Endian: 56 (0x0038)
+16 bits Little Endian: 14336 (0x3800)
+32 bits Big Endian: 3670016 (0x00380000)
+32 bits Little Endian: 14336 (0x00003800)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: .V......
+16 bits Big Endian: 65366 (0xFF56)
+16 bits Little Endian: 22271 (0x56FF)
+32 bits Big Endian: 4283826176 (0xFF560000)
+32 bits Little Endian: 22271 (0x000056FF)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x7FB
+Texto ASCII: .8......
+16 bits Big Endian: 65336 (0xFF38)
+16 bits Little Endian: 14591 (0x38FF)
+32 bits Big Endian: 4281860096 (0xFF380000)
+32 bits Little Endian: 14591 (0x000038FF)
+------------------------
+ID: 0x650
+Texto ASCII: ..2.....
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 12800 (0x00003200)
+32 bits Little Endian: 3276800 (0x00320000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII: rd      
+16 bits Big Endian: 29284 (0x7264)
+16 bits Little Endian: 25714 (0x6472)
+32 bits Big Endian: 1919164448 (0x72642020)
+32 bits Little Endian: 538993778 (0x20206472)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x603
+Texto ASCII: RPF.....
+16 bits Big Endian: 21072 (0x5250)
+16 bits Little Endian: 20562 (0x5052)
+32 bits Big Endian: 1380992512 (0x52504600)
+32 bits Little Endian: 4608082 (0x00465052)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII:     CAN 
+16 bits Big Endian: 8224 (0x2020)
+16 bits Little Endian: 8224 (0x2020)
+32 bits Big Endian: 538976288 (0x20202020)
+32 bits Little Endian: 538976288 (0x20202020)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450250 (0x5257420A)
+32 bits Little Endian: 172119890 (0x0A425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x604
+Texto ASCII: .8......
+16 bits Big Endian: 56 (0x0038)
+16 bits Little Endian: 14336 (0x3800)
+32 bits Big Endian: 3670016 (0x00380000)
+32 bits Little Endian: 14336 (0x00003800)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII: RLCD..  
+16 bits Big Endian: 21068 (0x524C)
+16 bits Little Endian: 19538 (0x4C52)
+32 bits Big Endian: 1380729668 (0x524C4344)
+32 bits Little Endian: 1145261138 (0x44434C52)
+------------------------
+ID: 0x650
+Texto ASCII: .0.f....
+16 bits Big Endian: 43568 (0xAA30)
+16 bits Little Endian: 12458 (0x30AA)
+32 bits Big Endian: 2855272550 (0xAA300066)
+32 bits Little Endian: 1711288490 (0x660030AA)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ...   ..
+16 bits Big Endian: 64506 (0xFBFA)
+16 bits Little Endian: 64251 (0xFAFB)
+32 bits Big Endian: 4227511840 (0xFBFAB620)
+32 bits Little Endian: 548862715 (0x20B6FAFB)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: .8......
+16 bits Big Endian: 65336 (0xFF38)
+16 bits Little Endian: 14591 (0x38FF)
+32 bits Big Endian: 4281860096 (0xFF380000)
+32 bits Little Endian: 14591 (0x000038FF)
+------------------------
+ID: 0x650
+Texto ASCII: .0.f....
+16 bits Big Endian: 43568 (0xAA30)
+16 bits Little Endian: 12458 (0x30AA)
+32 bits Big Endian: 2855272550 (0xAA300066)
+32 bits Little Endian: 1711288490 (0x660030AA)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..3.....
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 13056 (0x00003300)
+32 bits Little Endian: 3342336 (0x00330000)
+------------------------
+ID: 0x7FB
+Texto ASCII: .V......
+16 bits Big Endian: 65366 (0xFF56)
+16 bits Little Endian: 22271 (0x56FF)
+32 bits Big Endian: 4283826176 (0xFF560000)
+32 bits Little Endian: 22271 (0x000056FF)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x600
+Texto ASCII:     CAN 
+16 bits Big Endian: 8224 (0x2020)
+16 bits Little Endian: 8224 (0x2020)
+32 bits Big Endian: 538976288 (0x20202020)
+32 bits Little Endian: 538976288 (0x20202020)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450243 (0x52574203)
+32 bits Little Endian: 54679378 (0x03425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: .8......
+16 bits Big Endian: 65336 (0xFF38)
+16 bits Little Endian: 14591 (0x38FF)
+32 bits Big Endian: 4281860096 (0xFF380000)
+32 bits Little Endian: 14591 (0x000038FF)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450241 (0x52574201)
+32 bits Little Endian: 21124946 (0x01425752)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x7FB
+Texto ASCII: ...   ..
+16 bits Big Endian: 64506 (0xFBFA)
+16 bits Little Endian: 64251 (0xFAFB)
+32 bits Big Endian: 4227511840 (0xFBFAB620)
+32 bits Little Endian: 548862715 (0x20B6FAFB)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII:       ..
+16 bits Big Endian: 8224 (0x2020)
+16 bits Little Endian: 8224 (0x2020)
+32 bits Big Endian: 538976288 (0x20202020)
+32 bits Little Endian: 538976288 (0x20202020)
+------------------------
+ID: 0x650
+Texto ASCII: .0.f....
+16 bits Big Endian: 43568 (0xAA30)
+16 bits Little Endian: 12458 (0x30AA)
+32 bits Big Endian: 2855272550 (0xAA300066)
+32 bits Little Endian: 1711288490 (0x660030AA)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x602
+Texto ASCII: .8......
+16 bits Big Endian: 56 (0x0038)
+16 bits Little Endian: 14336 (0x3800)
+32 bits Big Endian: 3670016 (0x00380000)
+32 bits Little Endian: 14336 (0x00003800)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ...   ..
+16 bits Big Endian: 64506 (0xFBFA)
+16 bits Little Endian: 64251 (0xFAFB)
+32 bits Big Endian: 4227511840 (0xFBFAB620)
+32 bits Little Endian: 548862715 (0x20B6FAFB)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x7FB
+Texto ASCII: ...   ..
+16 bits Big Endian: 64506 (0xFBFA)
+16 bits Little Endian: 64251 (0xFAFB)
+32 bits Big Endian: 4227511840 (0xFBFAB620)
+32 bits Little Endian: 548862715 (0x20B6FAFB)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..3.....
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 13056 (0x00003300)
+32 bits Little Endian: 3342336 (0x00330000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: .8......
+16 bits Big Endian: 65336 (0xFF38)
+16 bits Little Endian: 14591 (0x38FF)
+32 bits Big Endian: 4281860096 (0xFF380000)
+32 bits Little Endian: 14591 (0x000038FF)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: .0.f....
+16 bits Big Endian: 43568 (0xAA30)
+16 bits Little Endian: 12458 (0x30AA)
+32 bits Big Endian: 2855272550 (0xAA300066)
+32 bits Little Endian: 1711288490 (0x660030AA)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ...   ..
+16 bits Big Endian: 64506 (0xFBFA)
+16 bits Little Endian: 64251 (0xFAFB)
+32 bits Big Endian: 4227511840 (0xFBFAB620)
+32 bits Little Endian: 548862715 (0x20B6FAFB)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x650
+Texto ASCII: ..3.....
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 13056 (0x00003300)
+32 bits Little Endian: 3342336 (0x00330000)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450242 (0x52574202)
+32 bits Little Endian: 37902162 (0x02425752)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x7FB
+Texto ASCII: .V......
+16 bits Big Endian: 65366 (0xFF56)
+16 bits Little Endian: 22271 (0x56FF)
+32 bits Big Endian: 4283826176 (0xFF560000)
+32 bits Little Endian: 22271 (0x000056FF)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x7FB
+Texto ASCII: .8......
+16 bits Big Endian: 65336 (0xFF38)
+16 bits Little Endian: 14591 (0x38FF)
+32 bits Big Endian: 4281860096 (0xFF380000)
+32 bits Little Endian: 14591 (0x000038FF)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x600
+Texto ASCII:     CAN 
+16 bits Big Endian: 8224 (0x2020)
+16 bits Little Endian: 8224 (0x2020)
+32 bits Big Endian: 538976288 (0x20202020)
+32 bits Little Endian: 538976288 (0x20202020)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450242 (0x52574202)
+32 bits Little Endian: 37902162 (0x02425752)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x603
+Texto ASCII: ........
+16 bits Big Endian: 6 (0x0006)
+16 bits Little Endian: 1536 (0x0600)
+32 bits Big Endian: 393216 (0x00060000)
+32 bits Little Endian: 1536 (0x00000600)
+------------------------
+ID: 0x7FB
+Texto ASCII: .t......
+16 bits Big Endian: 65396 (0xFF74)
+16 bits Little Endian: 29951 (0x74FF)
+32 bits Big Endian: 4285857732 (0xFF74FFC4)
+32 bits Little Endian: 3305075967 (0xC4FF74FF)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: .0.f....
+16 bits Big Endian: 43568 (0xAA30)
+16 bits Little Endian: 12458 (0x30AA)
+32 bits Big Endian: 2855272550 (0xAA300066)
+32 bits Little Endian: 1711288490 (0x660030AA)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x650
+Texto ASCII: ........
+16 bits Big Endian: 64511 (0xFBFF)
+16 bits Little Endian: 65531 (0xFFFB)
+32 bits Big Endian: 4227857151 (0xFBFFFAFF)
+32 bits Little Endian: 4294639611 (0xFFFAFFFB)
+------------------------
+ID: 0x7FB
+Texto ASCII: .j......
+16 bits Big Endian: 65386 (0xFF6A)
+16 bits Little Endian: 27391 (0x6AFF)
+32 bits Big Endian: 4285202382 (0xFF6AFFCE)
+32 bits Little Endian: 3472845567 (0xCEFF6AFF)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x605
+Texto ASCII: ........
+16 bits Big Endian: 252 (0x00FC)
+16 bits Little Endian: 64512 (0xFC00)
+32 bits Big Endian: 16515072 (0x00FC0000)
+32 bits Little Endian: 64512 (0x0000FC00)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x7FB
+Texto ASCII: ..(   ..
+16 bits Big Endian: 64506 (0xFBFA)
+16 bits Little Endian: 64251 (0xFAFB)
+32 bits Big Endian: 4227475488 (0xFBFA2820)
+32 bits Little Endian: 539556603 (0x2028FAFB)
+------------------------
+ID: 0x7FB
+Texto ASCII: ........
+16 bits Big Endian: 65256 (0xFEE8)
+16 bits Little Endian: 59646 (0xE8FE)
+32 bits Big Endian: 4276617216 (0xFEE80000)
+32 bits Little Endian: 59646 (0x0000E8FE)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x602
+Texto ASCII: .8......
+16 bits Big Endian: 56 (0x0038)
+16 bits Little Endian: 14336 (0x3800)
+32 bits Big Endian: 3670016 (0x00380000)
+32 bits Little Endian: 14336 (0x00003800)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x500
+Texto ASCII: RWB.....
+16 bits Big Endian: 21079 (0x5257)
+16 bits Little Endian: 22354 (0x5752)
+32 bits Big Endian: 1381450251 (0x5257420B)
+32 bits Little Endian: 188897106 (0x0B425752)
+------------------------
+ID: 0x7FB
+Texto ASCII: .~......
+16 bits Big Endian: 65406 (0xFF7E)
+16 bits Little Endian: 32511 (0x7EFF)
+32 bits Big Endian: 4286513072 (0xFF7EFFB0)
+32 bits Little Endian: 2969534207 (0xB0FF7EFF)
+------------------------
+ID: 0x600
+Texto ASCII: ........
+16 bits Big Endian: 0 (0x0000)
+16 bits Little Endian: 0 (0x0000)
+32 bits Big Endian: 0 (0x00000000)
+32 bits Little Endian: 0 (0x00000000)
+------------------------
+ID: 0x650
+Texto ASCII: ..K...K.
+16 bits Big Endian: 4352 (0x1100)
+16 bits Little Endian: 17 (0x0011)
+32 bits Big Endian: 285231872 (0x11004B00)
+32 bits Little Endian: 4915217 (0x004B0011)
+------------------------
+ID: 0x650
+Texto ASCII: x...x...
+16 bits Big Endian: 30722 (0x7802)
+16 bits Little Endian: 632 (0x0278)
+32 bits Big Endian: 2013396992 (0x78020000)
+32 bits Little Endian: 632 (0x00000278)
+------------------------
