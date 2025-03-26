@@ -1,13 +1,11 @@
 import java.util.Scanner;
 import java.util.Random;
-import java.io.Console;
 
 
 public class segundo {
     public static void main(String[] args){
         
         Scanner teclado = new Scanner(System.in);
-        Console console = System.console();
 
         System.out.print("Digite um número inteiro: ");
         int i = teclado.nextInt();//lendo um inteiro
@@ -19,7 +17,7 @@ public class segundo {
         String s = teclado.nextLine();//lendo cadeia de caracteres
         s = teclado.nextLine();//lendo cadeia de caracteres
 
-        System.out.println("\n\ninteiro: " + i + ", real: " + r);
+        System.out.println("\n\nInteiro: " + i + ", real: " + r);
         System.out.println("Frase: " + s);
 
         //obtendo numeros pseudo-aleatorios de 0 a 9
