@@ -1,3 +1,5 @@
+//Leia um número do teclado e imprima todos os números ímpares de 0 até o número lido;
+
 import java.util.Scanner;
 
 public class exer1 {
@@ -13,5 +15,6 @@ public class exer1 {
                 System.out.println(i);
             }
         }
+        teclado.close();
     }
 }
